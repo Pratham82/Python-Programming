@@ -1,4 +1,4 @@
-#This is basic Hello Wolrd program in Python
+#This is basic Hello World program in Python
 
 print("Hi this is Prathamesh!!")
 
