@@ -7,8 +7,8 @@ Comments
 # Continuation character to denote that line should continue
 
 Total = "item 1\
-         item 2\
-         item 3"
+        item 2\
+        item 3"
 print(Total)
 
 print()
