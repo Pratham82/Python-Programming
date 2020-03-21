@@ -92,7 +92,7 @@ print()
 print("Dictionary\n--------------")
 '''
 Similar to hashtable. 
-Dictionaries are enclosed by curly braces ({ }) 
+Dictionaries are enclosed by curly braces { } 
 and values can be assigned and accessed using square braces ([])
 '''
 
@@ -101,4 +101,19 @@ print(dict1)              #Printing whole dictionary
 print(dict1['student 1']) # Prints value for 'Student 1' key
 print(dict1.keys())       # Prints all the keys in dictionary
 print(dict1.values())     # Prints all the values in dictionary
+
+
+# Data type conversion
+# SImilar to java's type casting
+#To convert between types, you simply use the type name as a function.
+x =0
+
+float(x) # Conversts x to a floating point number
+str(x) #Converts object x to a string representation.
+print (x)
+s =[78,94,54,454]
+#tuple(s) # converts s to tuple
+#list(s) # converts s to list
+set(s) # converts s to set
+print(s)
 
