@@ -24,6 +24,16 @@ Data types in python:
    3. List 
    4. Tuple
    5. Dictionary
+
+   Text Type:	str
+   Numeric Types:	int, float, complex
+   Sequence Types:	list, tuple, range
+   Mapping Type:	dict
+   Set Types:	set, frozenset
+   Boolean Type:	bool
+   Binary Types:	bytes, bytearray, memoryview
+
+
 '''
 # 1. Numbers
 number1 = 3423
@@ -116,4 +126,3 @@ s =[78,94,54,454]
 #list(s) # converts s to list
 set(s) # converts s to set
 print(s)
-
