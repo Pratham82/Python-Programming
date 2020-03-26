@@ -2,34 +2,57 @@
 # While loop will run until the specified condition is true
 i = 1
 while i < 5:
-    print (i)
-    i+=1
+    print i
+    i += 1
 
+
+# Using break statement we can stop the flow of the loop
 print
-# With the break statement we can stop the loop even if the while condition is true:
-i = 1
+i =1
 while i < 5:
-    print(i)
-    if i == 3:
+    print i
+    if i == 3:      # Our loop will stop executing from 3
         break
     i += 1
 
+# Example 2
 
-# With the continue statement we can stop the current iteration, and continue with the next:
-print
-i = 0
+
+# Continue: this wll skip the current iteration of loop and go to the next iteration
+
+print "\nContinue Statement"
+i =0
 while i < 5:
     i += 1
-    if i == 2:  # Here 3 will be skipped
+    if i ==3:
+        continue
+    print (i)
+
+
+print
+i = 0
+while i < 6:
+    i += 1
+    if i == 3:
         continue
     print(i)
 
-
-# With the else statement we can run a block of code once when the condition no longer is true:
+print"\nElse Statement"
 print
-i = 1
-while i < 6:
-    print(i)
+i =0
+while i < 5:
+    print i 
     i += 1
 else:
-    print("i is no longer less than 6")
+    print("is no longer lesser than 5")
+
+# Single Statement Suites
+
+# Similar to the if statement syntax, if your while clause consists only of a single statement, it may be placed on the same line as the while header.
+
+# infinite Loop
+flag  =1 
+# while flag: print "Flag is true"
+print "End of while statement"
+# Use CTL + C to end loop
+
