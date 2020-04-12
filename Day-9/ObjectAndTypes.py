@@ -14,3 +14,14 @@ def modify2(g):
 
 modify2(f)
 print("f= ",f)
+
+"""
+Notes: 
+1. Python uses named references to objects
+2. id() returns a unique integer ID for an object
+3. 'is' keyword determines if two names refer to the same object
+4. We can test for equivalence with ==
+5. Function arguments are passed by object reference, function can modify their arguments if they are mutable objects
+6. type() reports the type of an object
+7. dir() introspects the attributes of an object
+"""
