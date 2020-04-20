@@ -27,3 +27,9 @@ Repo for all code of python course
 
 **Day 9**
 - Objects and scopes
+
+**Day 10**
+- List, Ranges, Strings and Tuples
+
+**Day 11**
+- Dictionaries and Sets
