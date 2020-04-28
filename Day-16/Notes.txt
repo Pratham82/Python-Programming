@@ -1,0 +1,47 @@
+
+Classes: 
+--------
+1. Define structure and behavior  of objects.
+2. Act as a template for creating new objects.
+3. Classes control an object's initial state, attributes, and methods.
+4. Instance of a class created by calling the class like a function 
+5. Instance methods are function defined within a class and must accept a self argument
+6. Methods are called using the instance.method() syntax 
+7. Classes may have a __init__() method for initializing new instances 
+8. A class's constructor will call __init__() if its present 
+9. Init is not strictly a constructor 
+10. Arguments passes to the constructor are forwarded to __init__() (Initializer)
+11. Instance attributes are created simply by assigning to them
+12. Implementation details are conventionally prefixed with an underscore.
+13. Class invariants should be established within __init__
+14. Method calls on self within a method must be preceded with self
+
+Polymorphism:
+-------------
+1. Using objects of different types through a uniform interface
+2. It applies to both functions as well as more complex types.
+3. Polymorphism in python is achieved by duck typing 
+4. Polymorphism in python don't rely on share based classed or interfaces
+5. All methods including special methods are inherited
+
+Duck Typing
+"When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck"
+
+An object's fitness for use only determined at use.
+This is in constant to statically typed compiled languages.
+Suitability is not determined by inheritance or interfaces.
+
+
+
+Inheritance:
+------------
+Late binding
+
+1. Nominally typed languages use inheritance for polymorphism
+2. Python uses late binding
+3. Late binding: python attributes or method calls are bound to actual objects until the point till they are called is called late binding.
+4. You can try any method on any object.
+
+
+* Inheritance in python is primarily useful for sharing implementation between Classes
+
