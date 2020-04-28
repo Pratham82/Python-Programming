@@ -33,3 +33,23 @@ Repo for all code of python course
 
 **Day 11**
 - Dictionaries and Sets
+
+**Day 12**
+- Exception handling and APIs
+
+**Day 13**
+- Platfrom specific exceptions and standards
+
+**Day 14**
+- Iteration protocols
+
+**Day 15**
+- Itertools, generators, generator expressions
+
+**Day 16**
+- Airtravel module(using Inheritance, polymorphism)
+
+
+
+
+
