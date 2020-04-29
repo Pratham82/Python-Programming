@@ -1,0 +1,2 @@
+File handling is one of the useful modules in python
+We can use file handling to read write and append files

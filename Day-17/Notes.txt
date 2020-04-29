@@ -1,0 +1,40 @@
+open()
+Open a file for reading or writing 
+file: the path to the file(required)
+mode: read, write or append plus binary text
+encoding: encoding use in text mode
+
+open() modes
+
+'r' open for reading
+'w' open for writing 
+'a' open for appending 
+
+Selectors
+
+'b' binary mode
+'t' text mode
+
+Examples: 
+wb: write binary 
+at: append in text mode
+
+open() returns a file-like object.
+return type of read() method is str
+If the file which is provided in and argument is not present at the current directory then it creates the file.
+
+seek()
+-------
+The seek() method sets the current file position in a file stream.
+The seek() method also returns the new postion.
+seek() cannot move to arbitary offset. Only 0 and values form tell() are allowed. 
+Other values result in undefined behavior
+
+readlines()
+--------------
+The readlines() method returns a list containing each line in the file as a list item.
+
+with-block
+-----------
+Control flow structure for managing resources
+Can be used with any objects-such as files which supports the context manager protocol
