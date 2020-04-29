@@ -49,7 +49,8 @@ Repo for all code of python course
 **Day 16**
 - Airtravel module(using Inheritance, polymorphism)
 
-
+**Day 17**
+- File IO and resource management
 
 
 
