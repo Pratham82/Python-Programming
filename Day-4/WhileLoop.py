@@ -2,15 +2,15 @@
 # While loop will run until the specified condition is true
 i = 1
 while i < 5:
-    print i
+    print(i)
     i += 1
 
 
 # Using break statement we can stop the flow of the loop
-print
+print()
 i =1
 while i < 5:
-    print i
+    print (i)
     if i == 3:      # Our loop will stop executing from 3
         break
     i += 1
@@ -20,7 +20,7 @@ while i < 5:
 
 # Continue: this wll skip the current iteration of loop and go to the next iteration
 
-print "\nContinue Statement"
+print ("\nContinue Statement")
 i =0
 while i < 5:
     i += 1
@@ -29,7 +29,7 @@ while i < 5:
     print (i)
 
 
-print
+print()
 i = 0
 while i < 6:
     i += 1
@@ -37,11 +37,11 @@ while i < 6:
         continue
     print(i)
 
-print"\nElse Statement"
-print
+print("\nElse Statement")
+print()
 i =0
 while i < 5:
-    print i 
+    print (i)
     i += 1
 else:
     print("is no longer lesser than 5")
@@ -53,6 +53,6 @@ else:
 # infinite Loop
 flag  =1 
 # while flag: print "Flag is true"
-print "End of while statement"
+print ("End of while statement")
 # Use CTL + C to end loop
 

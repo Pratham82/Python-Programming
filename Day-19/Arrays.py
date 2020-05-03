@@ -11,7 +11,8 @@ print("Typecode: ",val.typecode)
 val.reverse()
 print("After reverse: ",val)
 
-# Interating over array
+# Iterating over array
+
 for i in val:
     print(i,end=",")
 
@@ -29,7 +30,7 @@ for i in val2:
 
 valCopy = array(val.typecode, (a for a in val))
 
-#Iteration using for
+# Iteration using for
 
 print('\n\nvalCopy: ')
 for i in valCopy:
