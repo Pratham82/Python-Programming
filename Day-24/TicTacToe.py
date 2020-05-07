@@ -1,3 +1,4 @@
+# Methods for game:
 from IPython.display import clear_output
 
 def display_board(board):
@@ -92,6 +93,7 @@ def replay():
     choice = input("Do you want to continue playing if yes enter 'y' or 'n' if no: ")
 
     return choice =='y'
+
 
 # ------------------------------Tic tac toe----------------------------------------
 
