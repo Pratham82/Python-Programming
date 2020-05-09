@@ -12,7 +12,7 @@ class Book():
     def __str__(self):
         return f"Book: {self.title}, Author: {self.author}, Pages: {self.pages}"
 
-book1 = Book("Think and grow rich", "napolean Hill", 200)
+book1 = Book("Think and grow rich", "napoleon Hill", 200)
 
 # Here we can see, that predefined methods can be used on th list1
 list1 = [34,345,345345,53]
