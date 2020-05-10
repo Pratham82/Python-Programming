@@ -81,6 +81,7 @@ Repo for all code of python course
 
 **Day 27**
 - OOP challenges bank system 
+- Packages and modules
 
 
 
