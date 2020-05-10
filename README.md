@@ -52,5 +52,35 @@ Repo for all code of python course
 **Day 17**
 - File IO and resource management
 
+**Day 18**
+- ForElse, Patterns, PrimeNumbers
+
+**Day 19**
+- Arrays
+
+**Day 20**
+- List comprehension and Statements
+
+**Day 21**
+- Args, Kwargs, functions, list methods
+
+**Day 22**
+- Lambda expressions
+
+**Day 23**
+- Nested statements & functions and methods challenges 
+
+**Day 24**
+- Tic Tac toe game & web automation test
+
+**Day 25**
+- OOP concepts: Class, instance, self, methods
+
+**Day 26**
+- OOP concepts: Inheritance, polymorphism, abstract classes, special methods
+
+**Day 27**
+- OOP challenges bank system 
+
 
 
