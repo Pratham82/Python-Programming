@@ -27,31 +27,31 @@ if(n1 !=n2):
 #if elif statements
 
 if n1>n2:
-    print "n1 is greater than n2" #Python 2 style  printing
+    print ("n1 is greater than n2" )#Python 2 style  printing
 elif n1<n2:    
-    print "n1 is lesser than n2"
+    print ("n1 is lesser than n2")
 
 
 #if elif else statements
 
 if n1>n2:
-    print "n1 is greater thaan n2" #Python 2 style  printing
+    print ("n1 is greater thaan n2") #Python 2 style  printing
 elif n1==n2:    
-    print "n1 is equal to n2"
+    print ("n1 is equal to n2")
 else:    
-    print "n1 is lesser than n2"
+    print ("n1 is lesser than n2")
 
 
 #Nested if else
 
 if n1>50:
-    print"n1 is greater than 50"
+    print("n1 is greater than 50")
     if n1>70:
-        print"n1 is greater than 70"
+        print("n1 is greater than 70")
     if n1>90:
-        print"n1 is greater than 90"
+        print("n1 is greater than 90")
     else:
-        print"n1 is not greater than 50"
+        print("n1 is not greater than 50")
 
 
 # pass 
@@ -67,11 +67,11 @@ if b > a:
 # if with boolean
 
 if n1>n2 and n2>n1:
-    print "True"
+    print ("True")
 else:
-    print"false"
+    print("false")
 
 if n1>n2 or n2>n1:
-    print "True"
+    print ("True")
 else:
-    print"false"
+    print("false")

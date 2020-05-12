@@ -9,10 +9,10 @@
 # raw_input(): This function takes exactly what is typed from the keyboard, convert it to string and then return it to the variable in which we want to store.
 
 n1 = raw_input("Enter the value: ")
-print "Entered value: ",n1
+print ("Entered value: ",n1)
 
 n1 = raw_input("Enter your name: ")
-print "Hi",n1,"Welcome to python."
+print ("Hi",n1,"Welcome to python.")
 
 #input(): This function first takes the input from the user and then evaluates the expression, which means Python automatically identifies whether user entered a string or a number or list. 
 # If the input provided is not correct then either syntax error or exception is raised by python. 

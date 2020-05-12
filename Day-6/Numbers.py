@@ -8,7 +8,7 @@ num2 = 58
 
 # del num1
 
-print num1
+print (num1)
 # If we try to print the value of num1 then we will get following error
 # NameError: name 'num1' is not defined
 
@@ -21,15 +21,15 @@ Numerical types in python:
 '''
 
 num1 = 4545          # int
-num2 = 4543424454L   # Long
+num2 = 4543424454   # Long
 num3 = 54.7          # float
 num4 = 3.15j         # complex
 
 
-print "num1: ", num1, type(num1)
-print "num2: ", num2, type(num2)
-print "num3: ", num3, type(num3)
-print "num4: ", num4, type(num4)
+print ("num1: ", num1, type(num1))
+print ("num2: ", num2, type(num2))
+print ("num3: ", num3, type(num3))
+print ("num4: ", num4, type(num4))
 
 '''
 Number type conversion:
@@ -43,22 +43,22 @@ Type complex(x) to convert x to a complex number with real part x and imaginary 
 Type complex(x, y) to convert x and y to a complex number with real part x and imaginary part y. x and y are numeric expressions.
 '''
 
-print "\nType conversion: "
+print ("\nType conversion: ")
 
 # Converting int to float
 
 num1Float = float(num1)
 
-print num1Float, type(num1Float) 
+print (num1Float, type(num1Float) )
 
 # Converting float to int
 
 num3Int =int(num3)
 
-print num3Int, type(num3Int)
+print (num3Int, type(num3Int))
 
 numNew =454
 # Converting int to complex number
 numNewInt = complex(numNew)
 
-print numNewInt, type(numNewInt)
+print (numNewInt, type(numNewInt))
