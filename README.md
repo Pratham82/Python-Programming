@@ -1,7 +1,7 @@
 # Python-Programming
 Repo for all code of python course
 
-### [1. Data types](1.Datatypes)
+### 1. Data types
 ### 2. Operators
 ### 3. Decision making	
 ### 4. Inputs	
