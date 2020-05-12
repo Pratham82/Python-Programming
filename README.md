@@ -1,7 +1,7 @@
 # Python-Programming
 Repo for all code of python course
 
-### [1. Data types] (https://github.com/Pratham82/Python-Programming/tree/master/1.%20Data%20types)
+### [1. Data types](https://github.com/Pratham82/Python-Programming/tree/master/1.%20Data%20types)
 ### 2. Operators
 ### 3. Decision making	
 ### 4. Inputs	
