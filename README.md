@@ -83,5 +83,9 @@ Repo for all code of python course
 - OOP challenges bank system 
 - Packages and modules
 
+**Day 28**
+- Exception and error handling
+- Exception homework
+
 
 
