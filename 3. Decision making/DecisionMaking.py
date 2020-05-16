@@ -27,7 +27,7 @@ if(n1 !=n2):
 #if elif statements
 
 if n1>n2:
-    print ("n1 is greater than n2" )#Python 2 style  printing
+    print ("n1 is greater than n2" )
 elif n1<n2:    
     print ("n1 is lesser than n2")
 
@@ -35,7 +35,7 @@ elif n1<n2:
 #if elif else statements
 
 if n1>n2:
-    print ("n1 is greater thaan n2") #Python 2 style  printing
+    print ("n1 is greater than n2") 
 elif n1==n2:    
     print ("n1 is equal to n2")
 else:    
