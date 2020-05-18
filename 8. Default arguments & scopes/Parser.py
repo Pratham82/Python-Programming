@@ -32,3 +32,8 @@ if __name__ == "__main__":
         result = args.num1 & args.num2
 
     print(result)
+
+
+ # Input example
+ # python Parser.py -n1=12 -n2=15 -o=*
+ # python Parser.py --num1=12 --num2=15 --operators=*
