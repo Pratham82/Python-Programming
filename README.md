@@ -22,3 +22,9 @@ Repo for all code of python course
 ### 19. Packages	
 ### 20. Exception handling	
 ### 21. Unit testing	
+### 22. Decorators
+### 23. Generators
+### 24. Advanced modules
+### 25. Advanced objects and DS
+### Practice problems
+### Projects
