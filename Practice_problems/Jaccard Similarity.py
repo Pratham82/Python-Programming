@@ -2,8 +2,8 @@
 
 def jaccard_similarity(set_1, set_2):
     jac_sim = len(set_1.intersection(set_2)) / len(set_1.union(set_2))
-    jac_sim = jac_sim*100
     jac_distance = (1 - jac_sim) * 100
+    jac_sim *= 100
 
     print(f'Set_1: {set_1}, \nSet_2: {set_2}')
     print(f"Jaccard similarity : {jac_sim}% ")
