@@ -6,7 +6,7 @@
 def func1():
     return 2
 # When we print it out we get: <function func1 at 0x0302DF58> this can be assigned to another functions
-# variable func1 is actually assigned to func1() 
+# variable func1 is actually assigned to func1()
 # and this func1 variabale can be assigned to another variable
 
 print("func1: ",func1)

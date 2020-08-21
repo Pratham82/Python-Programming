@@ -17,7 +17,7 @@ Numerical types in python:
 1. int (signed integers): They are often called just integers or ints, are positive or negative whole numbers with no decimal point.
 2 long (long integers ): Also called longs, they are integers of unlimited size, written like integers and followed by an uppercase or lowercase L.
 3. float (floating point real values): Also called floats, they represent real numbers and are written with a decimal point dividing the integer and fractional parts.
-4. complex (complex numbers): are of the form a + bJ, where a and b are floats and J (or j) represents the square root of -1 (which is an imaginary number). The real part of the number is a, and the imaginary part is b. 
+4. complex (complex numbers): are of the form a + bJ, where a and b are floats and J (or j) represents the square root of -1 (which is an imaginary number). The real part of the number is a, and the imaginary part is b.
 '''
 
 num1 = 4545          # int
@@ -49,7 +49,7 @@ print "\nType conversion: "
 
 num1Float = float(num1)
 
-print num1Float, type(num1Float) 
+print num1Float, type(num1Float)
 
 # Converting float to int
 
