@@ -3,9 +3,6 @@ import json
 
 # Program to find Covid DeathRate
 """Program to calculate covid deathrate"""
-# Requirements:
-# 1. Values must be returned by a function.
-# 2. Take user input, total cases and no. of deaths
 
 
 def get_summary():
@@ -25,7 +22,7 @@ def get_summary():
 def deathrate_calculator(total_cases, deaths):
     """Deathrate calculator"""
     deathrate = deaths / total_cases * 100
-    return f"DeathRate calulated from the given values: {round(deathrate,2)}%"
+    return f"""Total Confirmed cases: {get_summary()["total_cases"]}\nTotal Deaths: {get_summary()["total_deaths"]}\nDeathRate calulated from the given values: {round(deathrate,2)}%"""
 
 
 total_cases = get_summary()["total_cases"]
