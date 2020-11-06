@@ -1,4 +1,5 @@
-"""Program to find Covid19 death rate and cases """
+
+"""Program to find Covid19 death rate and cases in India"""
 import json
 import requests
 
@@ -8,9 +9,9 @@ def get_summary():
     url = "https://api.covid19api.com/summary"
     response = requests.get(url)
     result = json.loads(response.text)
-    total_cases_fetched = result["Global"]["TotalConfirmed"]
-    total_deaths_fetched = result["Global"]["TotalDeaths"]
-    toal_recovered_fetched = result["Global"]["TotalRecovered"]
+    total_cases_fetched = result["Countries"][76]["TotalConfirmed"]
+    total_deaths_fetched = result["Countries"][76]["TotalDeaths"]
+    toal_recovered_fetched = result["Countries"][76]["TotalRecovered"]
     summary = {
         "total_cases": total_cases_fetched,
         "total_deaths": total_deaths_fetched,
