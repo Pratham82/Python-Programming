@@ -43,30 +43,30 @@ print(profits)
 # ------------------------ Brain storming------------------------------
 # Taking input
 # Shit storm
-shoes_len = int(input())
-shoes_list = list((map(lambda n: int(n), input().split(" "))))
-customer_len = int(input())
-main_count = Counter(shoes_list)
-desired_shoes = []
-a = 0
-for i in range(customer_len):
-    desired_shoes.append(input())
+# shoes_len = int(input())
+# shoes_list = list((map(lambda n: int(n), input().split(" "))))
+# customer_len = int(input())
+# main_count = Counter(shoes_list)
+# desired_shoes = []
+# a = 0
+# for i in range(customer_len):
+#     desired_shoes.append(input())
 
-new_desired_shoes = list(map(lambda n: n.split(" "), desired_shoes))
-profits = 0
-for i in range(len(new_desired_shoes)):
-    if int(new_desired_shoes[i][0]) in shoes_list:
-        print(new_desired_shoes[i][1])
-        profits += int(new_desired_shoes[i][1]) 
-        # Remove the values from shoe_list if
-        if new_desired_shoes[i][0] in shoes_list:
-            shoes_list.remove(new_desired_shoes[i][0])
-    # print(new_desired_shoes[i][0])
+# new_desired_shoes = list(map(lambda n: n.split(" "), desired_shoes))
+# profits = 0
+# for i in range(len(new_desired_shoes)):
+#     if int(new_desired_shoes[i][0]) in shoes_list:
+#         print(new_desired_shoes[i][1])
+#         profits += int(new_desired_shoes[i][1]) 
+#         # Remove the values from shoe_list if
+#         if new_desired_shoes[i][0] in shoes_list:
+#             shoes_list.remove(new_desired_shoes[i][0])
+#     # print(new_desired_shoes[i][0])
 
-# for i in range(len(desired_shoes)):
-#     print(desired_shoes[i][0])
+# # for i in range(len(desired_shoes)):
+# #     print(desired_shoes[i][0])
 
-print(profits)
+# print(profits)
 # shoes_list.remove(6)
 # print(shoes_list)
 
