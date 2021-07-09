@@ -68,9 +68,8 @@ for i in range(10):
     start = start1
     start1 = next
     print(next)
-"""
-Cleaner fibonacci
-"""
+
+# Cleaner fibonacci
 # initializing starting values
 first, second, fib_list = 0, 1, []
 for i in range(10):
@@ -80,11 +79,9 @@ for i in range(10):
     # Here the first variable will get the value of second and the second will get the value of first + second
     first, second = second, first + second
 print(fib_list)
-"""
-Using python generator
-"""
 
 
+# Using python generator
 def fib_gen(n):
     first, second = 0, 1
     for _ in range(n):
