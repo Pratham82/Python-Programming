@@ -4,3 +4,4 @@ venv/
 .py/un~
 .py~
 .sh
+.env
