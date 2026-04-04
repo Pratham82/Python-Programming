@@ -18,10 +18,17 @@ def add_assistant_message(messages, text):
     messages.append(assistant_message)
 
 
-def chat(messages):
-    message = client.messages.create(
-        model=model,
-        max_tokens=1000,
-        messages=messages
-    )
+def chat(messages, system=None):
+    params = {
+        "model": model,
+        "max_tokens": 1000,
+        "messages": messages,
+    }
+
+    if system:
+        params["system"] = [{"type": "text", "text": system}]
+    else:
+        params = params
+
+    message = client.messages.create(**params)
     return message.content[0].text
