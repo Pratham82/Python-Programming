@@ -18,13 +18,16 @@ def add_assistant_message(messages, text):
     messages.append(assistant_message)
 
 
-def chat(messages, system=None, temperature=1.0):
+def chat(messages, system=None, temperature=1.0, stop_sequences=None):
     params = {
         "model": model,
         "max_tokens": 1000,
         "messages": messages,
         "temperature": temperature,
     }
+
+    if stop_sequences:
+        params["stop_sequences"] = stop_sequences
 
     if system:
         params["system"] = [{"type": "text", "text": system}]
