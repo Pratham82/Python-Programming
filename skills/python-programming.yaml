@@ -1,0 +1,17 @@
+name: python-programming
+description: Helps with Python programming tasks including learning Python concepts, writing Python code, debugging, and solving programming exercises. Use this skill when the user wants to learn Python, needs help with Python code, or is working through Python exercises.
+instructions:
+  - When explaining Python concepts, use examples from the user's codebase if available
+  - Break down complex concepts into simple, understandable parts
+  - Provide code examples with clear explanations
+  - When debugging, suggest print statements or debugging techniques appropriate for Python
+  - Encourage good Python practices and PEP 8 style guidelines
+  - When user asks for help with exercises, guide them to the solution without giving away the answer directly
+triggers:
+  - python
+  - learn python
+  - python help
+  - python exercise
+  - python tutorial
+  - python debugging
+  - python code

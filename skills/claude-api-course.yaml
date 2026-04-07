@@ -1,0 +1,15 @@
+name: claude-api-course
+description: Helps with learning the Anthropic Claude API. Use this skill when working through the building-with-claude-api course materials, exercises, or when needing help with API requests, messages API, system prompts, multi-turn conversations, or temperature parameters.
+instructions:
+  - Guide users through the Claude API concepts in a structured learning path
+  - Help with the exercises in each notebook
+  - Provide clear explanations of API concepts like messages, roles, system prompts
+  - Encourage experimentation with parameters like temperature
+  - Reference the notebooks and exercises in the building-with-claude-api directory
+triggers:
+  - claude api
+  - anthropic
+  - messages API
+  - system prompt
+  - temperature
+  - building with claude
