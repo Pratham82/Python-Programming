@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create an AWS Lambda function configuration that sets up a function with 512MB memory, 60-second timeout, and includes environment variables for database connection",
+    "format": "json",
+    "solution_criteria": "Must include FunctionName, Runtime, Handler, Role, MemorySize (512), Timeout (60), and Environment variables object with database connection details"
+  },
+  {
+    "task": "Write a Python function that parses an AWS S3 event from Lambda and extracts the bucket name and object key from the Records",
+    "format": "python",
+    "solution_criteria": "Must accept event parameter, extract bucket name from event['Records'][0]['s3']['bucket']['name'], extract key from event['Records'][0]['s3']['object']['key'], and return both values"
+  },
+  {
+    "task": "Create a regex pattern that validates AWS IAM role ARN format",
+    "format": "regex",
+    "solution_criteria": "Must match valid IAM role ARNs like 'arn:aws:iam::123456789012:role/MyRole' and reject invalid formats, account ID must be 12 digits"
+  }
+]
