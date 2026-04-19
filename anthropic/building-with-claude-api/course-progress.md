@@ -43,7 +43,7 @@
 - [x] Structure with XML tags
 - [x] Providing examples
 - [x] Exercise on prompting
-- [ ] Quiz on prompt engineering techniques
+- [x] Quiz on prompt engineering techniques
 
 ## Tool Use with Claude
 
