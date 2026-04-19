@@ -47,15 +47,15 @@
 
 ## Tool Use with Claude
 
-- [ ] Introducing tool use
-- [ ] Project overview
-- [ ] Tool functions
-- [ ] Tool schemas
-- [ ] Handling message blocks
-- [ ] Sending tool results
-- [ ] Multi-turn conversations with tools
-- [ ] Implementing multiple turns
-- [ ] Using multiple tools
+- [x] Introducing tool use
+- [x] Project overview
+- [x] Tool functions
+- [x] Tool schemas
+- [x] Handling message blocks
+- [x] Sending tool results
+- [x] Multi-turn conversations with tools
+- [x] Implementing multiple turns
+- [x] Using multiple tools
 - [ ] Fine-grained tool calling
 - [ ] The text edit tool
 - [ ] The web search tool
