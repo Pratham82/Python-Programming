@@ -56,10 +56,10 @@
 - [x] Multi-turn conversations with tools
 - [x] Implementing multiple turns
 - [x] Using multiple tools
-- [ ] Fine-grained tool calling
-- [ ] The text edit tool
-- [ ] The web search tool
-- [ ] Quiz on tool use with Claude
+- [x] Fine-grained tool calling
+- [x] The text edit tool
+- [x] The web search tool
+- [x] Quiz on tool use with Claude
 
 ## RAG and Agentic Search
 
